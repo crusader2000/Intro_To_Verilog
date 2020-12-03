@@ -31,6 +31,12 @@ module decoder_83_tb;
 		.q_7(q_7)
 	);
 
+	initial	begin
+		$dumpfile("dump.vcd");
+		$dumpvars(0,decoder_83_tb);
+	end
+	
+
 	initial begin
 		
 	$display ("e s_0 s_1 s_2 I0 I1 I2 I3 I4 I5 I6 I7");

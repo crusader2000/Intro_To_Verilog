@@ -1,9 +1,12 @@
 `timescale 1ns / 1ps
 
 module lut4 (
+	// Inputs
     input wire [3:0] in,
+	// Outputs
     output reg [0:0] out,
 
+	// Configuration Inputs
     input wire [0:0] cfg_clk,
     input wire [0:0] cfg_e,
     input wire [0:0] cfg_we,

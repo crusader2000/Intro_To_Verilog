@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   12:48:39 09/10/2019
-// Design Name:   demux_83
-// Module Name:   /home/ansh/Desktop/classes/sem2-1/vlsi design/assgn2/demux/demux_83_tb.v
-// Project Name:  demux
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: demux_83
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module demux_83_tb;
 
 	// Inputs
@@ -57,7 +35,12 @@ module demux_83_tb;
 		.I6(I6), 
 		.I7(I7)
 	);
-
+	
+	initial	begin
+		$dumpfile("dump.vcd");
+		$dumpvars(0,demux_83);
+	end
+	
 	initial begin
 	$display ("enable   y   s1   s2   s3   I0   I1   I2  I3  I4  I5  I6  I7");
 $monitor (" %b     %b    %b    %b   %b   %b    %b    %b   %b  %b    %b    %b   %b", 

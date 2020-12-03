@@ -14,6 +14,11 @@ module bit_4_ripple_carry_tb;
 		.s(s), 
 		.c_4(c_4)
 	);
+	initial	begin
+		$dumpfile("dump.vcd");
+		$dumpvars(0,bit_4_ripple_carry_tb);
+	end
+	
 	initial #stop_time $finish;
 	initial begin
 		a = 0;

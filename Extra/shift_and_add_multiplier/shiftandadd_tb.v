@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   09:19:40 10/09/2019
-// Design Name:   shiftandadd
-// Module Name:   /home/ansh/Desktop/classes/sem2-1/vlsi design/assgn4/shiftandadd/shiftandadd_tb.v
-// Project Name:  shiftandadd
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: shiftandadd
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module shiftandadd_tb;
 
 	// Inputs
@@ -37,6 +15,11 @@ module shiftandadd_tb;
 		.y(y), 
 		.s(s)
 	);
+	initial	begin
+		$dumpfile("dump.vcd");
+		$dumpvars(0,shiftandadd_tb);
+	end
+	
 
 initial #100 $finish;
 	initial begin

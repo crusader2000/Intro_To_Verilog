@@ -17,6 +17,13 @@ parameter stop_time=2000;
 		.s(s), 
 		.c_16(c_16)
 	);
+
+	initial	begin
+		$dumpfile("dump.vcd");
+		$dumpvars(0,bit_16_carry_lookahead_tb);
+	end
+	
+
 initial #stop_time $finish;
 	initial begin
 		a = 0;

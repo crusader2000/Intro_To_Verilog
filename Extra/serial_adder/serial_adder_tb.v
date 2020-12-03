@@ -12,6 +12,12 @@ module serial_adder_tb;
 	wire [3:0] s;
 	wire [3:0] i;
 	wire c_out;
+	
+	initial	begin
+		$dumpfile("dump.vcd");
+		$dumpvars(0,serial_adder_tb);
+	end
+	
 
 	// Instantiate the Unit Under Test (UUT)
 	serial_adder uut (

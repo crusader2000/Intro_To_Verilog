@@ -30,6 +30,13 @@ module encoder_tb;
 		.Y_1(Y_1), 
 		.Y_2(Y_2)
 	);
+	
+	initial	begin
+		$dumpfile("dump.vcd");
+		$dumpvars(0,encoder_tb);
+	end
+	
+
 	initial begin
 		$display ("e I0 I1 I2 I3 I4 I5 I6 I7 Y0 Y1 Y2");
 $monitor ("%b %b  %b  %b  %b  %b  %b  %b  %b  %b  %b  %b", 
