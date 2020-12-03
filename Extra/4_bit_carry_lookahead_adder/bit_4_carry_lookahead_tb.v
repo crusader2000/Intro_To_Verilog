@@ -59,4 +59,3 @@ module bit_4_ripple_carry_tb;
       
 endmodule
 
-

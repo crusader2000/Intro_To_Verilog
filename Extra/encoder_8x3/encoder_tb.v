@@ -48,26 +48,18 @@ $monitor ("%b %b  %b  %b  %b  %b  %b  %b  %b  %b  %b  %b",
     
       always #5 I_0=~I_0;
 		
-		
       always #10 I_1=~I_1;
-		
 	
-      always #15 I_2=~I_2;
+      always #20 I_2=~I_2;
 		
-      always #20 I_3=~I_3;
+      always #40 I_3=~I_3;
 		
+      always #80 I_4=~I_4;
 		
-      always #25 I_4=~I_4;
+      always #160 I_5=~I_5;
 		
+      always #320 I_6=~I_6;
 		
-      always #30 I_5=~I_5;
-		
-		
-      always #35 I_6=~I_6;
-		
-		
-      always #40 I_7=~I_7;
-		
-		
+      always #640 I_7=~I_7;
+			
 endmodule
-

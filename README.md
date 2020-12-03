@@ -8,3 +8,6 @@ This Repository contains materials for the session "Introduction To Verilog" by 
 3. Instructions to run code samples and check output 
 4. Mini Competition Questions
 5. Presentation used
+
+### Installation Guide for Iverilog:
+https://iverilog.fandom.com/wiki/Installation_Guide
