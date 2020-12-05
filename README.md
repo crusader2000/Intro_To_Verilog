@@ -2,12 +2,18 @@
 
 This Repository contains materials for the session "Introduction To Verilog" by Electronics and Robotics Club, IIIT-Hyderabad.
 
-### Things to be done:
-1. Installation Procedure for Xilinx ISE/Vivado
-2. Installation Procedure for iverilog and Gtkwave
-3. Instructions to run code samples and check output 
-4. Mini Competition Questions
-5. Presentation used
+## Setup
+For the hands-on session, the following 2 programs are required:
+1. Iverilog
+2. GtkWave
 
-### Installation Guide for Iverilog:
-https://iverilog.fandom.com/wiki/Installation_Guide
+It is recommended to use Ubuntu or any other Linux distro.
+
+You can find the installation instructions (for all OS) in the following 2 links:
+
+[http://gtkwave.sourceforge.net/](http://gtkwave.sourceforge.net/)
+
+[https://iverilog.fandom.com/wiki/Installation_Guide](https://iverilog.fandom.com/wiki/Installation_Guide)
+
+## Presentation (Used in the session): 
+To be added later
