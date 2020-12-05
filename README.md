@@ -1,4 +1,4 @@
-# Intro_To_Verilog
+# Intro To Verilog
 
 This Repository contains materials for the session "Introduction To Verilog" by Electronics and Robotics Club, IIIT-Hyderabad.
 
