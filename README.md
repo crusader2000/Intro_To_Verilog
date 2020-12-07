@@ -40,5 +40,8 @@ Note: The testbench file(xxxx_tb.v) must be followed by the design file(xxxx.v).
 gtkwave dump.vcd
 ```
 
+## Competition:
+Go the folder named  ``questions`` to find the details regarding it
+
 ## Presentation (Used in the session): 
 To be added later
