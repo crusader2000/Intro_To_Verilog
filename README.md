@@ -44,4 +44,4 @@ gtkwave dump.vcd
 Go the folder named  ``questions`` to find the details regarding it
 
 ## Presentation (Used in the session): 
-To be added later
+Added The Presentation - "Intro To Verilog.pdf"
